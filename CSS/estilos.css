@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+#caja-general{
+    margin: auto;
+    margin-top: 50px;
+    width: 1500px;
+    height: 725px;
+    background-color: grey;
+}
+
+#vacio{
+    width: 1500px;
+    height: 25px;
+}
+
+#caja-total{
+    position: absolute;
+    margin-right: 25px;
+    margin-left: 1025px;
+    float: right;
+    width: 450px;
+    height: 675px;
+    background-color: white;
+}
+
+#caja-inventario{
+    position: absolute;
+    margin-right: 25px;
+    margin-left: 25px;
+    height: 575px;
+    float: left;
+    width: 975px;
+    height: 675px;
+    background-color: brown;
+}
+
+#caja-item{
+    position: absolute;
+    margin-left: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 975px;
+    height: 100px;
+    background-color: burlywood;
+}
+
+#caja-totalprecio{
+    position: absolute;
+    margin-left: 1025px;
+    float: right;
+    width: 450px;
+    height: 175px;
+    background-color: rgb(240, 35, 35);
+}
+
+#vacio2{
+    margin-top: 300px;
+    width: 1500px;
+    height: 25px;
+}
